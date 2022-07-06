@@ -3,7 +3,10 @@ PCF ?= leds.pcf
 
 prog : bin/toplevel.bin
 	sudo stty -F /dev/ttyACM0 raw
-	sudo cat bin/toplevel.bin >/dev/ttyACM0
+	sudo cp bin/toplevel.bin /dev/ttyACM0
+
+${VERILOG}: src/main/scala/*.scala
+	sbt run
 
 bin/toplevel.json : ${VERILOG}
 	mkdir -p bin

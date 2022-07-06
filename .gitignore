@@ -1,0 +1,10 @@
+.bsp/
+.metals/
+bin/
+project/project/
+project/target/
+target/
+
+.vscode/configurationCache.log
+.vscode/dryrun.log
+.vscode/targets.log

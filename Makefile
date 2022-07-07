@@ -1,5 +1,5 @@
-TOPLEVEL = BlueLed
-VERILOG ?= BlueLed.v
+TOPLEVEL = TopLevel
+VERILOG ?= TopLevel.v
 PCF ?= leds.pcf
 
 prog : bin/toplevel.bin

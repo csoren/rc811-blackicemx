@@ -1,4 +1,4 @@
-val spinalVersion = "1.6.0"
+val spinalVersion = "1.6.4"
 
 name := "SpinalTemplateSbt"
 

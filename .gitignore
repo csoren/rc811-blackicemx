@@ -1,10 +1,11 @@
 .bsp/
 .metals/
+.vscode/configurationCache.log
+.vscode/dryrun.log
+.vscode/targets.log
+.bloop/
 bin/
 project/project/
 project/target/
 target/
 
-.vscode/configurationCache.log
-.vscode/dryrun.log
-.vscode/targets.log

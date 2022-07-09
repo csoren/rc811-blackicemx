@@ -1,0 +1,4 @@
+[submodule "rc800"]
+	path = rc800
+	url = https://github.com/QuorumComp/rc800.git
+	branch = main

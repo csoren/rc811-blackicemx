@@ -8,4 +8,9 @@ bin/
 project/project/
 project/target/
 target/
+tmp/
 TopLevel.v
+simWorkspace/
+build.sbt
+TopLevel.v_toplevel_cpuArea_cpu_decodeArea_decoderUnit_decoder_1_signalMem.bin
+TopLevel.v_toplevel_memoryArea_ram.bin

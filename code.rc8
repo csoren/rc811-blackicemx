@@ -1,0 +1,13 @@
+	SECTION "Vectors",CODE[0]
+Reset::	ld	ft,Entry
+	j	(ft)	
+
+
+	SECTION	"Main",CODE[$100]
+Entry:	ld	t,$12
+	ld	bc,0
+	lio	(bc),t
+	ld	t,3
+	ld	bc,1
+	lio	(bc),t
+.spin	j	.spin

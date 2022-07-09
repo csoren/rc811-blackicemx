@@ -14,3 +14,5 @@ libraryDependencies ++= Seq(
 );
 
 fork := true
+
+Compile / unmanagedSourceDirectories += baseDirectory.value / "rc800"
